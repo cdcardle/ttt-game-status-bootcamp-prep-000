@@ -22,3 +22,4 @@ def won?(board)
     ifels (board[win_com[0]] == "O" && board[win_com[1]] == "O" && board[win_com[2]] == "O")
   end
 end
+end
