@@ -19,7 +19,7 @@ def won?(board)
   WIN_COMBINATIONS.select do |win_com|
     if (board[win_com[0]] == "X" && board[win_com[1]] == "X" && board[win_com[2]] == "X")
       puts "X has won!"
-    ifels (board[win_com[0]] == "O" && board[win_com[1]] == "O" && board[win_com[2]] == "O")
+    else (board[win_com[0]] == "O" && board[win_com[1]] == "O" && board[win_com[2]] == "O")
       puts "O has won!"
     end
   end
