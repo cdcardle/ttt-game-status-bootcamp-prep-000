@@ -24,6 +24,5 @@ def won?(board)
     elsif board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return nil
     end
-    false
-  end
+  end false
 end
