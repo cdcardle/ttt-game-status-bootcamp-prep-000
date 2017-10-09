@@ -17,5 +17,8 @@ const WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.select do |win_com|
-    if board[win_com[0]] == "X" && board[win_com[1]] == "X" && board[win_com[2]] == "X"
-      "X has won!"
+    if (board[win_com[0]] == "X" && board[win_com[1]] == "X" && board[win_com[2]] == "X")
+      return "X has won!"
+    ifels (board[win_com[0]] == "O" && board[win_com[1]] == "O" && board[win_com[2]] == "O")
+  end
+end
