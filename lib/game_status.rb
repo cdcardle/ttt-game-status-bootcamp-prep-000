@@ -23,7 +23,6 @@ def won?(board)
       return win_com
     elsif board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return nil
-    elsif puts "hi"
     end
   end
 end
