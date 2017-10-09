@@ -23,6 +23,7 @@ def won?(board)
       return win_com
     elsif board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return nil
+    else false
     end
   end
 end
